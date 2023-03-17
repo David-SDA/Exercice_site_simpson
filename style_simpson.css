@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fdd116;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 100%;
+}
+
+
+
+/*-------------HEADER-------------*/
+header, nav, aside{
+    background-color: #4b8ecd;
+    color: #fff;
+}
+
+h3{
+    font-size: 200%;
+    font-weight: 800;
+    text-align: center;
+    padding: 1%;
+}
+
+/*-------------MAIN-------------*/
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    padding: 50px 10px 20px 10px;
+    background-color: white;
+}
+
+/*-------------NAV-------------*/
+nav{
+    padding: 1% 2%;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 3% 0;
+    white-space: nowrap;
+}
+
+a{
+    color: #fff;
+    font-weight: 600;
+}
+
+/*-------------ARTICLE-------------*/
+article{
+    padding: 1.5em 1em;
+}
+
+h1{
+    color: #efc900;
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+/*-------------ASIDE-------------*/
+aside{
+    padding: 1%;
+}
+
+aside p{
+    padding-top: 2%;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption{
+    font-weight: bold;
+    padding: 5px 0 8px 0;
+}
+
+/*-------------FOOTER-------------*/
+footer{
+    color: #fff;
+    background-color: #29539d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+small{
+    font-size: 120%;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*-------------LES CLASSES-------------*/
+.photo_simpson{
+    object-fit: fill;
+    width: 100%;
+    height: auto;
+}
+
+.photo_matt{
+    width: 75%;
+    margin: auto;
+    border: 2px solid #fff;
+}
